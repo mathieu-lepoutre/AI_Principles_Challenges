@@ -68,7 +68,7 @@ print(f"Performance of the classifier when using Light and CO2 features:\n{perfo
 # As we are focusing here on two features only, we can plot the the decision boundary overlaid by the predictions:
 
 # %%
-# Plot also the test points
+# Plot the decision boundary
 x_min = feat.Light.min()
 x_max = 900 # feat.Light.max()
 y_min = feat.CO2.min()
@@ -86,7 +86,7 @@ plt.ylim(yy.min(), yy.max())
 
 plt.pcolormesh(xx, yy, z, cmap=plt.cm.coolwarm)
 
-# Plot also the test points
+# Overlay with test points
 plt.scatter(feat_test.Light.loc[outc_test == 1], feat_test.CO2[outc_test == 1],
     marker=".", color="r", label="present")
 plt.scatter(feat_test.Light.loc[outc_test == 0], feat_test.CO2[outc_test == 0],
