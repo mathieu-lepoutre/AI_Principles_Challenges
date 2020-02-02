@@ -2,12 +2,14 @@
   "title": "Occupancy Detection Data Set",
   "description": "Experimental data used for binary classification (room occupancy) from Temperature, Humidity, Light and CO2. Ground-truth occupancy was obtained from time stamped pictures that were taken every minute.",
   "data_set_type": ["Multivariate", "Time-Series"],
-  "instances_count": 20560,
+  "instances_count": 20559,
   "publication_date": "2016-02-29",
   "origin_contact_email": "Luis Candanedo <luismiguel.candanedoibarra@umons.ac.be>",
-  "attribute_type": "Real",
-  "attribute_count": 7,
-  "attribute_descriptions": {
+  "outcome": "Occupancy",
+  "outcome_type": "Binary",
+  "feature_type": "Real",
+  "feature_count": 7,
+  "variable_descriptions": {
     "Time": "Time of measurement",
     "Temperature": "Temperature in Celsius",
     "Humidity": "Relative air humidity in %",
