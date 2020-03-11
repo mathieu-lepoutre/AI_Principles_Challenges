@@ -1,0 +1,11 @@
+{
+  "title": "Air Quality Data Set",
+  "description": "Contains the responses of a gas multisensor device deployed on the field in an Italian city. Hourly responses averages are recorded along with gas concentrations references from a certified analyzer.",
+  "Link": "https://archive.ics.uci.edu/ml/datasets/Air+Quality",
+  "data_set_type": ["Multivariate", "Time series"],
+  "instances_count": 9357,
+  "publication_date": "2016-03-23",
+  "origin_contact_email": [
+    "Saverio De Vito <saverio.devito@enea.it>"
+  ]
+}
